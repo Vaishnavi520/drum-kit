@@ -7,12 +7,12 @@ for(var i=0;i<number;i++){
     makesound(Buttonclick);
     buttonAnimation(Buttonclick);
 
-    })
+    });
 
 document.addEventListener("keypress",function(event){
 makesound(event.key);
 buttonAnimation(event.key);
-})
+});
   
 }
 function makesound(key){
